@@ -41,7 +41,7 @@ function ProductList(){
 
     return (
       <>
-        <div className="bg-gray-200 md:py-8">
+        <div className="bg-gray-200 md:py-8 min-h-screen">
           <div className="md:p-16 p-8 max-w-6xl mx-auto bg-white">
               <h1 className="font-light font-sans mb-2">Home / Shop</h1>
               <h1 className="text-2xl text-rose-400 font-sans mb-4">Shop</h1>
