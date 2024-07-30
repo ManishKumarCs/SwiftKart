@@ -30,7 +30,7 @@ return(
         <Route path="/cart" element={<Cart cart={cart}></Cart>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
-      <Footer></Footer>
+      <Footer></Footer> 
     </>
 );
 }
