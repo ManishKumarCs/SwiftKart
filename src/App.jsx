@@ -17,7 +17,7 @@ function App() {
         setCart(cartUpdate);
         const cartCountStore = JSON.stringify(cartUpdate);
         localStorage.setItem("my-cart", cartCountStore);
-      }
+      } 
   const totalCartCount = Object.keys(cart).reduce(function(prev, curr){
     return prev + cart[curr];
   },0);
