@@ -29,7 +29,7 @@ return(
         <Route path="/viewDetails/:key/" element={<ViewDetails addToCart={handleAddtoCartCount}/>} />
         <Route path="/cart" element={<Cart cart={cart}></Cart>} />
         <Route path="*" element={<NotFound/>} />
-      </Routes>
+      </Routes>  
       <Footer></Footer> 
     </>
 );
